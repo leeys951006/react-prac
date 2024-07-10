@@ -1,6 +1,6 @@
 const path = require('path');
 
-let name = 'app';
+let name = 'index';
 
 module.exports = {
   entry: `./src/${name}.tsx`,
@@ -27,6 +27,6 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.ts', '.js', '.tsx', '.jsx', '.css'],
+    extensions: ['.ts', '.js', '.tsx', '.jsx', 'css'],
   },
 };
